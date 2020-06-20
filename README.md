@@ -53,6 +53,8 @@ let debouncedFunction = debounce(originalFunction, 500);
 
 If `debouncedFunction` is called more often than every `500` milliseconds, it will not be called until there's a gap of more than `500` milliseconds between calls.
 
----
+## License
 
-Happy Coding ✌️
+MIT
+
+## Happy Coding ✌️
