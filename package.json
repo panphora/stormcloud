@@ -1,6 +1,6 @@
 {
   "name": "stormcloud",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Throttle and debounce",
   "source": "src/stormcloud.js",
   "main": "dist/stormcloud.js",
