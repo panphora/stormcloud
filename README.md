@@ -9,15 +9,19 @@ Includes `throttle` and `debounce`.
 ### Throttle
 
 ```javascript
-let funcThrottled = throttle(func, 500);
+let throttledFunction = throttle(originalFunction, 500);
 ```
 
-Even if `funcThrottled` is called more often than every `500` milliseconds, it will be slowed down to being called every `500` milliseconds.
+If `throttledFunction` is called more often than every `500` milliseconds, it will be slowed down to being called every `500` milliseconds.
 
 ### Debounce
 
 ```javascript
-let funcDebounced = debounce(func, 500);
+let debouncedFunction = debounce(originalFunction, 500);
 ```
 
-If `funcDebounced` is called more often than every `500` milliseconds, it will not be called until there's a gap of more than `500` milliseconds. Then it will be called a single time.
+If `debouncedFunction` is called more often than every `500` milliseconds, it will not be called until there's a gap of more than `500` milliseconds between calls.
+
+---
+
+Happy Coding ✌️
