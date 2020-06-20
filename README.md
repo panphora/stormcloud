@@ -6,11 +6,11 @@ Includes `throttle` and `debounce`.
 
 [Read about throttle and debounce](https://css-tricks.com/debouncing-throttling-explained-examples/)
 
-### Demo
+## Demo
 
 [Demo](http://stormcloud.davidmiranda.info/demo/)
 
-### Install
+## Install
 
 ```
 npm install stormcloud
@@ -30,9 +30,9 @@ window.addEventListener('scroll', function(e) {
 });
 ```
 
-### How it Works
+## How it Works
 
-#### Throttle
+### Throttle
 
 ```javascript
 let throttledFunction = throttle(originalFunction, 500);
@@ -40,7 +40,7 @@ let throttledFunction = throttle(originalFunction, 500);
 
 If `throttledFunction` is called more often than every `500` milliseconds, it will be slowed down to being called every `500` milliseconds.
 
-#### Debounce
+### Debounce
 
 ```javascript
 let debouncedFunction = debounce(originalFunction, 500);
