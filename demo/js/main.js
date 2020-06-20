@@ -7,3 +7,6 @@ window.addEventListener('scroll', function(e) {
   consoleLogThrottled();
   consoleLogDebounced();
 });
+
+window.throttle = throttle;
+window.debounce = debounce;
