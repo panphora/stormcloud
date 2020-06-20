@@ -1,0 +1,36 @@
+{
+  "name": "stormcloud",
+  "version": "0.5.0",
+  "description": "Throttle and debounce",
+  "source": "src/stormcloud.js",
+  "main": "dist/stormcloud.js",
+  "module": "dist/stormcloud.module.js",
+  "unpkg": "dist/stormcloud.umd.js",
+  "scripts": {
+    "http-server": "http-server -c-1",
+    "microbundle-watch": "microbundle watch",
+    "build": "microbundle",
+    "dev": "concurrently 'npm:http-server' 'npm:microbundle-watch' --kill-others"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panphora/stormcloud.git"
+  },
+  "keywords": [
+    "event",
+    "library"
+  ],
+  "author": "panphora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panphora/stormcloud/issues"
+  },
+  "homepage": "https://github.com/panphora/stormcloud#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "microbundle": "^0.12.0"
+  }
+}

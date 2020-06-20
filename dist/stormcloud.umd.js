@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e=e||self).stormcloud={})}(this,function(e){e.debounce=function(e,t){var n;return function(){var o=arguments;clearTimeout(n),n=setTimeout(function(){e.apply(void 0,[].slice.call(o))},t)}},e.throttle=function(e,t){var n=!0,o=!1;return function(){var i=arguments;o||(o=!0,setTimeout(function(){e.apply(void 0,[].slice.call(i)),o=!1},n?0:t),n=!1)}}});
+//# sourceMappingURL=stormcloud.umd.js.map
