@@ -19,7 +19,7 @@ npm install stormcloud
 ## How to Use
 
 ```js
-import {throttle, debounce} from "../../dist/stormcloud.modern.js";
+import {throttle, debounce} from "stormcloud";
 
 let consoleLogThrottled = throttle(function () {
   console.log("throttle")
@@ -37,7 +37,7 @@ window.addEventListener('scroll', function(e) {
 
 ## How it Works
 
-### Throttle
+### `throttle`
 
 ```javascript
 let throttledFunction = throttle(originalFunction, 500);
@@ -45,7 +45,7 @@ let throttledFunction = throttle(originalFunction, 500);
 
 If `throttledFunction` is called more often than every `500` milliseconds, it will be slowed down to being called every `500` milliseconds.
 
-### Debounce
+### `debounce`
 
 ```javascript
 let debouncedFunction = debounce(originalFunction, 500);
