@@ -2,7 +2,9 @@
 
 A simple library for delaying function calls.
 
-Includes `throttle` and `debounce`. [What are throttle and debounce?](https://css-tricks.com/debouncing-throttling-explained-examples/)
+Includes `throttle` and `debounce`. 
+
+[Read about throttle and debounce](https://css-tricks.com/debouncing-throttling-explained-examples/)
 
 ### Throttle
 
