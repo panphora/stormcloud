@@ -17,8 +17,8 @@
     "url": "git+https://github.com/panphora/stormcloud.git"
   },
   "keywords": [
-    "event",
-    "library"
+    "throttle",
+    "debounce"
   ],
   "author": "panphora",
   "license": "MIT",

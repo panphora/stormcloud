@@ -1,5 +1,5 @@
-// throttle(func, 350);
-// debounce(func, 350);
+// throttle(func, 500);
+// debounce(func, 500);
 
 export function throttle(func, timeout) {
   let isFirstCall = true;
