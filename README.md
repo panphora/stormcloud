@@ -8,7 +8,7 @@ Includes `throttle` and `debounce`.
 
 ## Demo
 
-[See It in Action](http://stormcloud.davidmiranda.info/demo/)
+[See It in Action](https://stormcloud.davidmiranda.info/demo/)
 
 ## Install
 
